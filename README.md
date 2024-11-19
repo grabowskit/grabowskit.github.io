@@ -3,7 +3,7 @@ Authored or co-authored blog and webinar content at Elastic
 
 ## Webinars
 
-- April, 2024 [An introduction to SLOs: Improving service delivery and operational performance](https://www.elastic.co/virtual-events/introduction-to-slos)
+- Apr, 2024 [An introduction to SLOs: Improving service delivery and operational performance](https://www.elastic.co/virtual-events/introduction-to-slos)
 - 2022 [Introduction to NLP models and vector search: Part I](https://www.elastic.co/virtual-events/introduction-to-nlp-models-and-vector-search)
 - 2022 [Introduction to NLP models and vector search: Part II](https://www.elastic.co/virtual-events/introduction-to-nlp-models-and-vector-search-part-2)
 - 2020 [Uploading a File into Elasticsearch using Machine Learning and Ingest Node](https://www.elastic.co/es/webinars/uploading-a-file-into-elasticsearch-using-machine-learning-ingest-node)
@@ -42,7 +42,4 @@ Authored or co-authored blog and webinar content at Elastic
 - Sep, 2023 [Elastic Observability 8.10: Elastic AI Assistant enhancements and GA of Universal Profiling](https://www.elastic.co/blog/whats-new-elastic-observability-8-10-0)
 - Jul, 2023 [Elastic Observability 8.9: Introducing AI Assistant and up to 70% cost savings on metrics storage!](https://www.elastic.co/blog/whats-new-elastic-observability-8-9-0)
 - May, 2023 [Elastic Observability 8.8: Efficient operations with GitOps-based synthetics monitoring and direct AWS Firehose ingest](https://www.elastic.co/blog/whats-new-elastic-observability-8-8-0)
-
-
-
 
