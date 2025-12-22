@@ -1,5 +1,4 @@
 title: Thomas Grabowski
-logo: /assets/img/tomg-circle.png
-description: Product Mgmt ML/AI
-#show_downloads: true
-theme: jekyll-theme-minimal
+description: Product Manager, AI & Enterprise Software
+# Using custom HTML/CSS instead of Jekyll theme
+# theme: jekyll-theme-minimal
