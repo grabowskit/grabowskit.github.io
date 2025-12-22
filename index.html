@@ -11,13 +11,25 @@
 </head>
 <body>
     <div class="container">
+        <!-- Navigation -->
+        <nav class="top-nav">
+            <a href="#recent-work">Recent Work</a>
+            <a href="#writing">Writing & Talks</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
         <!-- Hero Section -->
         <section class="hero">
-            <h1 class="hero-title">Thomas Grabowski</h1>
-            <p class="hero-subtitle">Product Manager, AI</p>
-            <p class="hero-description">
-                I help enterprise software companies build AI products that analytics engineers and data practitioners actually want to use—from zero to thousands of users.
-            </p>
+            <div class="hero-content">
+                <img src="assets/img/tomg-circle.png" alt="Thomas Grabowski" class="hero-image">
+                <div class="hero-text">
+                    <h1 class="hero-title">Thomas Grabowski</h1>
+                    <p class="hero-subtitle">Product Manager, AI</p>
+                    <p class="hero-description">
+                        I enjoy working with open source, community driven software companies that build products that change people's lives.
+                    </p>
+                </div>
+            </div>
         </section>
 
         <!-- Main Content -->
@@ -25,24 +37,22 @@
             <div class="section about">
                 <h2>What I Do</h2>
                 <p>
-                    I specialize in AI product management for enterprise software, working at the intersection of
-                    <strong>product strategy, user experience, and technical feasibility</strong>. My focus is on
-                    transforming complex AI capabilities into intuitive tools that solve real workflow problems for
-                    technical users.
+                    I specialize in enterprise software product management with a focus on <strong>AI, Search, and Observability</strong>.
+                    My approach centers on understanding how engineers work and building features that enhance their daily workflows.
                 </p>
                 <p>
-                    I've shipped AI products at companies ranging from emerging features to enterprise-scale deployments,
-                    always prioritizing rapid learning and rapid shipping to deliver value quickly.
+                    I've shipped products at companies ranging from emerging startups to enterprise-scale deployments,
+                    always prioritizing rapid learning and rapid shipping to deliver features that engineers love and actually use.
                 </p>
             </div>
 
             <!-- Current Work -->
-            <div class="section current-work">
+            <div class="section current-work" id="recent-work">
                 <h2>Recent Work</h2>
                 <div class="job">
                     <div class="job-header">
                         <h3>Product Manager, AI</h3>
-                        <p class="company">dbt Labs (2024)</p>
+                        <p class="company">dbt Labs (2024-2025)</p>
                     </div>
                     <p class="job-description">
                         Led the development and launch of AI-powered tools for analytics engineers, helping thousands
@@ -58,10 +68,9 @@
 
                     <h4>Product Philosophy</h4>
                     <p class="philosophy">
-                        "Reliable AI strategies depend on <strong>governance, lineage, and context as the foundation</strong>.
-                        Without these elements, AI tools create more problems than they solve. My approach focuses on
-                        building AI features that respect the existing workflows and infrastructure that data teams
-                        already trust."
+                        My approach focuses on shipping features that enhance engineers' jobs and building products they love and
+                        use to improve their daily work. The best products understand the workflows engineers already trust and make
+                        them better, not more complicated.
                     </p>
 
                     <div class="team-highlight">
@@ -94,7 +103,7 @@
             </div>
 
             <!-- Thought Leadership -->
-            <div class="section writing">
+            <div class="section writing" id="writing">
                 <h2>Selected Writing & Talks</h2>
 
                 <div class="writing-category">
@@ -236,7 +245,7 @@
             </div>
 
             <!-- Contact -->
-            <div class="section contact">
+            <div class="section contact" id="contact">
                 <h2>Get in Touch</h2>
                 <p>I'm open to discussing:</p>
                 <ul class="contact-list">
