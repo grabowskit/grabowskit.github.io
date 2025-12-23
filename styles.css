@@ -191,6 +191,17 @@ strong {
     font-size: 1.5rem;
 }
 
+.achievements a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.achievements a:hover {
+    color: #0052a3;
+    text-decoration: underline;
+}
+
 /* Philosophy Box */
 .philosophy {
     background-color: #f8f9fa;

@@ -1,5 +1,28 @@
-# Elastic ML/AI, Security, Search, and Observability content
-Authored or co-authored blog and webinar content at Elastic
+# Thomas Grabowski - Product Manager, AI & Enterprise Software
+
+Personal professional portfolio site showcasing AI product management work at dbt Labs and Elastic.
+
+**Live Site**: [grabowski.org](https://grabowski.org) | [grabowskit.github.io](https://grabowskit.github.io)
+
+## Recent Work
+
+### dbt Labs (2024-2025) - AI Product Launches
+
+**Blogs**
+- Dec, 2024 [dbt Agents & Remote dbt MCP Server: Trusted AI for Analytics](https://www.getdbt.com/blog/dbt-agents-remote-dbt-mcp-server-trusted-ai-for-analytics)
+- 2024 [dbt Copilot is GA](https://www.getdbt.com/blog/dbt-copilot-is-ga)
+- 2024 [Why Your AI Will Fail Without a Semantic Layer](https://www.getdbt.com/blog/why-your-ai-will-fail-without-a-semantic-layer)
+
+**Webinars**
+- 2024 [Build Reliable AI Agents with the dbt MCP Server](https://www.getdbt.com/resources/webinars/build-reliable-ai-agents-with-the-dbt-mcp-server)
+- 2024 [Build Reliable AI Agents with the dbt MCP Server (YouTube)](https://www.youtube.com/watch?v=ZqDuSpSKCM4)
+- 2024 [AI-Powered Conversational Analytics with the dbt MCP Server](https://www.getdbt.com/resources/webinars/ai-powered-conversational-analytics-with-the-dbt-mcp-server)
+
+---
+
+## Elastic ML/AI, Security, Search, and Observability Content
+
+Authored or co-authored blog and webinar content at Elastic (2017-2024)
 
 ## Webinars
 - Apr, 2024 [An introduction to SLOs: Improving service delivery and operational performance](https://www.elastic.co/virtual-events/introduction-to-slos)
