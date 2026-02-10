@@ -18,6 +18,7 @@
         <nav class="top-nav">
             <a href="#recent-work">Recent Work</a>
             <a href="#writing">Writing & Talks</a>
+            <a href="#contact">Contact</a>
         </nav>
 
         <!-- Hero Section -->
@@ -50,35 +51,36 @@
 
             <!-- Current Work -->
             <div class="section current-work" id="recent-work">
-                <h2>Current Work</h2>
-                <div class="job startup-highlight">
+                <h2>Current project I'm exploring</h2>
+                <div class="project-highlight">
                     <div class="job-header">
-                        <h3>Founder & CEO</h3>
-                        <p class="company"><a href="https://codepathfinder.com" target="_blank" class="company-link">CodePathfinder</a> (2025-Present)</p>
+                        <h3>Founder</h3>
+                        <p class="company"><a href="https://codepathfinder.com" target="_blank" class="company-link">CodePathfinder</a></p>
                     </div>
                     <p class="job-description">
                         Building an intelligent context layer that enables AI to navigate code effectively. CodePathfinder serves
                         as a semantic intelligence platform, making codebases accessible beyond just developers and democratizing
                         access to code knowledge across entire organizations.
                     </p>
-
-                    <h4>Mission</h4>
                     <p class="philosophy">
                         Code represents ground truth for numerous business tasks, yet it remains siloed as developer-only knowledge.
                         CodePathfinder breaks down these barriers by providing AI-powered code intelligence that enables teams across
                         the organization—from product managers to support engineers—to leverage code insights for their work.
                     </p>
-
-                    <div class="video-container-large">
-                        <iframe
-                            src="https://www.youtube-nocookie.com/embed/5gYaEsZvZ4A"
-                            title="CodePathfinder Introduction"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
+                    <ul class="video-thumbnails">
+                        <li>
+                            <a href="https://youtu.be/5gYaEsZvZ4A" target="_blank" rel="noopener" class="video-thumb-link">
+                                <img src="https://img.youtube.com/vi/5gYaEsZvZ4A/hqdefault.jpg" alt="CodePathfinder Introduction" width="320" height="180" loading="lazy">
+                                <span class="video-thumb-title">CodePathfinder Introduction</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://youtu.be/zb2CJUskLgg" target="_blank" rel="noopener" class="video-thumb-link">
+                                <img src="https://img.youtube.com/vi/zb2CJUskLgg/hqdefault.jpg" alt="Skills and Github additions to Codepathfinder" width="320" height="180" loading="lazy">
+                                <span class="video-thumb-title">Skills and Github additions to Codepathfinder</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
                 <h2>Recent Work</h2>
@@ -93,12 +95,56 @@
                     </p>
 
                     <h4>Key Launches</h4>
-                    <ul class="achievements">
-                        <li><strong><a href="assets/pdf/Structured_for_Intelligence-dbt.pdf" target="_blank" rel="noopener">Structured for Intelligence</a></strong> (O'Reilly, co-authored at dbt Labs) – book on structuring data and analytics for AI</li>
-                        <li><strong><a href="https://www.getdbt.com/blog/dbt-copilot-is-ga" target="_blank">dbt Copilot</a></strong> - AI-powered coding assistant integrated directly into the analytics workflow, helping engineers write better SQL and documentation faster</li>
-                        <li><strong><a href="https://docs.getdbt.com/blog/introducing-dbt-mcp-server" target="_blank">dbt MCP</a></strong> - Model Context Protocol implementation enabling seamless integration with AI tools and agents. Added several tools for agents including building data transformations & semantic layer, querying data from any of our partner data warehouse platforms, orchestrating data jobs, and providing context for most AI agents that require structured data</li>
-                        <li><strong><a href="https://www.getdbt.com/blog/dbt-agents-remote-dbt-mcp-server-trusted-ai-for-analytics" target="_blank">dbt Agents</a></strong> - Launched Data Discovery Agent (for searching through metadata), Analysis Agent (for SQL and semantic layer queries), and Orchestration Agent (for managing data models). Local development agent capabilities were explored but not released to production</li>
-                    </ul>
+                    <div class="key-launches-grid">
+                        <a href="assets/pdf/Structured_for_Intelligence-dbt.pdf" target="_blank" rel="noopener" class="key-launch-card">
+                            <div class="key-launch-thumb">
+                                <img src="assets/img/structured-for-intelligence-cover.png" alt="Structured for Intelligence – O'Reilly Report" width="400" height="225" loading="lazy">
+                            </div>
+                            <div class="key-launch-body">
+                                <h5 class="key-launch-title">Structured for Intelligence</h5>
+                                <p class="key-launch-desc">Co-authored at dbt Labs. Why AI needs governed, discoverable, and provisioned data—and how to get there.</p>
+                            </div>
+                        </a>
+                        <div class="key-launch-card key-launch-card-split">
+                            <a href="https://www.youtube.com/watch?v=jbmitdc540M" target="_blank" rel="noopener" class="key-launch-thumb-link" aria-label="Watch dbt Copilot on YouTube">
+                                <div class="key-launch-thumb">
+                                    <img src="https://img.youtube.com/vi/jbmitdc540M/hqdefault.jpg" alt="dbt Copilot" width="400" height="225" loading="lazy">
+                                </div>
+                            </a>
+                            <a href="https://www.getdbt.com/blog/dbt-copilot-is-ga" target="_blank" rel="noopener" class="key-launch-body-link">
+                                <div class="key-launch-body">
+                                    <h5 class="key-launch-title">dbt Copilot</h5>
+                                    <p class="key-launch-desc">AI-powered coding assistant in the analytics workflow—better SQL, documentation, and semantic layer, with one click.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="key-launch-card key-launch-card-split">
+                            <a href="https://www.youtube.com/watch?v=fJ-72qOA7BE" target="_blank" rel="noopener" class="key-launch-thumb-link" aria-label="Watch dbt MCP Server on YouTube">
+                                <div class="key-launch-thumb">
+                                    <img src="https://img.youtube.com/vi/fJ-72qOA7BE/hqdefault.jpg" alt="dbt MCP Server" width="400" height="225" loading="lazy">
+                                </div>
+                            </a>
+                            <a href="https://docs.getdbt.com/blog/introducing-dbt-mcp-server" target="_blank" rel="noopener" class="key-launch-body-link">
+                                <div class="key-launch-body">
+                                    <h5 class="key-launch-title">dbt MCP</h5>
+                                    <p class="key-launch-desc">Model Context Protocol server—one gateway for AI tools to use your dbt context: models, lineage, semantic layer, and more.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="key-launch-card key-launch-card-split">
+                            <a href="https://www.youtube.com/watch?v=VMkRXWkEcKk" target="_blank" rel="noopener" class="key-launch-thumb-link" aria-label="Watch dbt Agents on YouTube">
+                                <div class="key-launch-thumb">
+                                    <img src="https://img.youtube.com/vi/VMkRXWkEcKk/hqdefault.jpg" alt="dbt Agents" width="400" height="225" loading="lazy">
+                                </div>
+                            </a>
+                            <a href="https://www.getdbt.com/blog/dbt-agents-remote-dbt-mcp-server-trusted-ai-for-analytics" target="_blank" rel="noopener" class="key-launch-body-link">
+                                <div class="key-launch-body">
+                                    <h5 class="key-launch-title">dbt Agents</h5>
+                                    <p class="key-launch-desc">Native AI agents on dbt: Discovery, Analysis, Orchestration—governed, auditable, and built on your structured context.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
                     <h4>Product Philosophy</h4>
                     <p class="philosophy">
@@ -112,18 +158,6 @@
                         GTM, Marketing, Documentation, Data, and Product—demonstrating the cross-functional coordination
                         essential for successful enterprise AI product launches.</em></p>
                     </div>
-                </div>
-                <div class="job startup-highlight">
-                    <div class="job-header">
-                        <h3>Founder</h3>
-                        <p class="company">Current venture</p>
-                    </div>
-                    <p class="job-description">
-                        Building the next chapter. Latest video:
-                    </p>
-                    <ul class="achievements">
-                        <li><a href="https://youtu.be/zb2CJUskLgg" target="_blank">Skills and Github additions to Codepathfinder</a></li>
-                    </ul>
                 </div>
             </div>
 
@@ -141,10 +175,22 @@
                         thousands of customers implement machine learning in production.
                     </p>
 
-                    <div class="content-summary">
-                        <p><strong>Created educational content</strong> including webinars, blog posts, and
-                        technical talks reaching tens of thousands of developers and IT practitioners worldwide.</p>
-                    </div>
+                    <h4>Videos & talks</h4>
+                    <ul class="video-thumbnails">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=Ca4_5AMvboU" target="_blank" rel="noopener" class="video-thumb-link">
+                                <img src="https://img.youtube.com/vi/Ca4_5AMvboU/hqdefault.jpg" alt="ElasticOn - Anomaly Detection workflow" width="320" height="180" loading="lazy">
+                                <span class="video-thumb-title">ElasticOn – Anomaly Detection workflow</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=NfOTq3X_pcg" target="_blank" rel="noopener" class="video-thumb-link">
+                                <img src="https://img.youtube.com/vi/NfOTq3X_pcg/hqdefault.jpg" alt="Elastic Observability" width="320" height="180" loading="lazy">
+                                <span class="video-thumb-title">Elastic Observability</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p><a href="https://www.elastic.co/blog/author/tom-grabowski" target="_blank" rel="noopener" class="view-all-link">More articles & videos at Elastic →</a></p>
                 </div>
 
                 <h2>Startup/Founding Experience</h2>
@@ -161,8 +207,7 @@
                     </p>
 
                     <div class="startup-outcome">
-                        <p><strong>Investors:</strong> Investors in LogLogic included <a href="https://www.sequoiacap.com" target="_blank">Sequoia Capital</a>,
-                        TeleSoft Partners, Worldview Technology Partners, Invesco Private Capital, Focus Ventures, and SAP Ventures</p>
+                        <p><strong><a href="https://www.crunchbase.com/organization/loglogic" target="_blank" rel="noopener">Investors</a>:</strong> Investors in LogLogic included <a href="https://www.crunchbase.com/organization/sequoia-capital" target="_blank" rel="noopener">Sequoia Capital</a>, <a href="https://www.crunchbase.com/organization/telesoft-partners" target="_blank" rel="noopener">TeleSoft Partners</a>, <a href="https://www.crunchbase.com/organization/worldview-technology-partners" target="_blank" rel="noopener">Worldview Technology Partners</a>, <a href="https://www.crunchbase.com/organization/invesco" target="_blank" rel="noopener">Invesco Private Capital</a>, <a href="https://www.crunchbase.com/organization/focus-ventures" target="_blank" rel="noopener">Focus Ventures</a>, and <a href="https://www.crunchbase.com/organization/sap-ventures" target="_blank" rel="noopener">SAP Ventures</a></p>
                         <p><strong>Acquisition:</strong> <a href="https://www.securityweek.com/tibco-completes-130-million-acquisition-loglogic/" target="_blank">Acquired by TIBCO Software</a>
                         in April 2012 for $130 million. At acquisition, LogLogic served over 1,000 enterprise customers worldwide.</p>
                     </div>
@@ -180,7 +225,7 @@
                     </p>
 
                     <div class="startup-outcome">
-                        <p><strong>Funding:</strong> Raised $1.38M from <a href="https://www.eldoradoventures.com" target="_blank">El Dorado Ventures</a>,
+                        <p><strong>Funding:</strong> <a href="https://www.crunchbase.com/organization/rapidengines" target="_blank" rel="noopener">Raised $1.38M</a> from <a href="https://www.eldoradoventures.com" target="_blank">El Dorado Ventures</a>,
                         <a href="https://rallyventures.com" target="_blank">Rally Ventures</a>, and Vesbridge Partners</p>
                         <p><strong>Acquisition:</strong> <a href="https://www.businesswire.com/news/home/20140410005415/en/SevOne-Acquires-Log-Analytics-Provider-RapidEngines" target="_blank">Acquired by SevOne</a>
                         in March 2014. This was SevOne's first acquisition after their $150M funding round from Bain Capital.</p>
@@ -327,6 +372,22 @@
                 </div>
             </div>
 
+            <!-- Contact -->
+            <div class="section contact-section" id="contact">
+                <h2>Contact</h2>
+                <p class="section-intro">Get in touch for speaking, advisory, or product collaboration.</p>
+                <!-- Replace YOUR_FORM_ID with your Formspree form ID (create one at formspree.io) -->
+                <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input type="hidden" name="_subject" value="Contact from grabowskit.github.io">
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name" name="name" required placeholder="Your name">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="email" required placeholder="your@email.com">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" name="message" required rows="5" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn-primary">Send message</button>
+                </form>
+            </div>
 
         </section>
 
@@ -346,6 +407,7 @@
             </div>
             <div class="footer-links">
                 <a href="portfolio.html">Full Portfolio</a>
+                <a href="#contact">Contact</a>
             </div>
         </footer>
     </div>
